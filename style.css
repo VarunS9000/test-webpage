@@ -1,0 +1,164 @@
+/* Add a black background color to the top navigation */
+.top{
+    display: inline-block;
+}
+
+.topnav {
+    background-color: #060507;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #060507;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  .company{
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 90px;
+  }
+  .vertical {
+    
+    float: right;
+    color: #FFFFFF;
+    padding-top: 15%;
+    padding-right: 20px;
+    padding-left: 0px;
+    display: inline-block;
+    
+
+
+}
+ .main{
+    font-size: 23px;
+    font-weight: bold;
+ }
+ .box{
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    
+    
+ }   
+ 
+ .sub{
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-size: 10px;
+ }
+ 
+ 
+ .left{
+    transform: rotate(-90deg);
+    font-size: 10px;
+   
+    
+   
+    
+ }
+ .parent{
+    justify-content: flex-start;
+    display: flex;
+    vertical-align: middle;
+ }
+ .para{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 10px;
+ }
+ .para1{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+ }
+ .vertical0{
+    float: right;
+    padding-top: 15%;
+    padding-right: 0px;
+    padding-left: 0px;
+    display: inline-block;
+    
+ }
+ .leftsub{
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+
+ }
+ .sub1{
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    transform: rotate(-90deg);
+    
+
+ }
+
+ .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .scroll{
+    padding-top: 10px;
+  }
+ 
+ 
+ 
+ 
+
+  
